@@ -13,6 +13,8 @@ a {
 }
 body {
     padding: 0px 30px 30px 30px;
+    max-width: 1440px;
+    margin: 0 auto;
 }
 
 /*************** Header ***************/
@@ -231,8 +233,11 @@ header {
 .view_more {
     display: inline-block;
     margin-top: 30px;
-    font-size: 10px;
+    font-size: 12px;
     font-weight: bold;
+}
+.view_more:hover {
+    color: var(--blue);
 }
 /******************* Card Hosting City *****************/
 .card {
@@ -256,8 +261,8 @@ header {
     overflow: hidden;
 }
 .card_img img {
-    width: 100%;
     height: auto;
+    width: 105%;
     object-fit: cover;
 }
 .card_content {
