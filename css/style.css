@@ -73,12 +73,12 @@ header {
     color: var(--blue);
 }
 
-/***************** Search *******************/
+/***************** Wrapper *******************/
 .title {
     font-size: 18px;
     margin-bottom: 6px;
 }
-.search_p {
+.wrapper_p {
     font-size: 14px;
     margin-top: 6px;
 }
@@ -116,4 +116,40 @@ header {
 }
 .filter_p{
     margin: 0 20px;
+}
+
+
+.search_bar{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+
+}
+.search_bar_i {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--grey);
+    border-radius: 10px 0 0 10px;
+    width: 40px;
+    height: 40px;
+    font-size: 14px;
+}
+.search_bar input {
+    height: 36px;
+    padding: 0 10px;
+    border: none;
+    border-top: 2px solid var(--grey);
+    border-bottom: 2px solid var(--grey);
+    font-weight: 600;
+}
+.search_bar button {
+    height: 40px;
+    padding: 0;
+    background-color: var(--blue);
+    border: none;
+    border-radius: 0 10px 10px 0;
+    padding: 0 10px;
+    font-weight: 500;
+    color: white;
 }
