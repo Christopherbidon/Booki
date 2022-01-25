@@ -6,3 +6,69 @@
     --grey : #F2F2F2;
     font-family: 'Raleway', sans-serif;
 }
+a {
+    text-decoration: none;
+    color: black;
+}
+body {
+    padding: 0px 30px 30px 30px;
+}
+
+/*************** Header ***************/
+header {
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo {
+    height: 100px;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    
+}
+.logo a {
+    height: 50%;
+    width: auto;
+    margin-left: 15px;
+}
+.logo a img{
+    height: 100%;
+    width: auto;
+    
+}
+
+.nav_bar {
+    display: flex;
+    height: 100px;
+    justify-content: flex-end;
+
+}
+.nav_bar ul {
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+.nav_bar ul li {
+    display: block;
+    list-style-type: none;
+    width: 200px;
+    height: 100%;
+}
+.nav_item a{
+    display: flex;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    border-top: 2px solid transparent;
+    
+}
+.nav_item a:hover{
+    border-top: 2px solid var(--blue);
+    color: var(--blue);
+}
+.nav_host_active a{
+    border-top: 2px solid var(--blue);
+    color: var(--blue);
+}
