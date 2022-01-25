@@ -17,13 +17,13 @@ body {
 
 /*************** Header ***************/
 header {
-    height: 100px;
+    height: 80px;
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 .logo {
-    height: 100px;
+    height: 100%;
     width: 50%;
     display: flex;
     align-items: center;
@@ -42,7 +42,7 @@ header {
 
 .nav_bar {
     display: flex;
-    height: 100px;
+    height: 80px;
     justify-content: flex-end;
 
 }
@@ -54,7 +54,7 @@ header {
 .nav_bar ul li {
     display: block;
     list-style-type: none;
-    width: 200px;
+    width: 140px;
     height: 100%;
 }
 .nav_item a{
@@ -80,7 +80,7 @@ header {
     margin-bottom: 6px;
 }
 .wrapper_p {
-    font-size: 14px;
+    font-size: 13px;
     margin-top: 6px;
 }
 /****************** Search Bar ******************/
@@ -106,15 +106,16 @@ header {
     border: none;
     border-top: 1px solid var(--grey);
     border-bottom: 1px solid var(--grey);
+    font-size: 15px;
     font-weight: 600;
 }
 .search_bar button {
     height: 44px;
-    padding: 0;
     background-color: var(--blue);
     border: none;
     border-radius: 0 14px 14px 0;
-    padding: 0 15px;
+    padding: 1px 15px 0 15px;
+    font-size: 15px;
     font-weight: 500;
     color: white;
 }
@@ -122,11 +123,11 @@ header {
 .filters{
     display: flex;
     flex-wrap: wrap;
+    align-items: center;
 }
 .filters_p {
     font-weight: bold;
-    margin-top: 13px;
-    margin-bottom: 19px;
+    font-size: 13px;
 
 }
 
@@ -134,31 +135,33 @@ header {
     display: flex;
     align-items: center;
     border: 2px solid var(--darkgrey);
-    font-size: 14px;
+    border-left: none;
+    font-size: 13px;
     font-weight: bold;
-    height: 40px;
-    border-radius: 23px;
+    height: 36px;
+    min-width: 110px;
+    border-radius: 21px;
     margin-left: 20px;
 }
 .filter_i {
-    height: 40px;
-    width: 40px;
+    height: 38px;
+    width: 38px;
     display: flex;
     align-items: center;
     justify-content: center;
     color: var(--blue);
     background-color: var(--lightblue);
     border-radius: 50%;
-    transform: scale(1.11);
+    transform: scale(1.05);
 }
 .filter_p{
-    margin: 0 15px;
+    margin: 2px 10px 0 10px;
 }
 /******************* Information Number of Hosting Available ******************/
 .host_available{
     display: flex;
     align-items: center;
-    font-size: 14px;
+    font-size: 13px;
 }
 .host_available div {
     display: flex;
@@ -167,11 +170,90 @@ header {
     border: 1px solid var(--darkgrey);
     border-radius: 50%;
     color: var(--blue);
-    width: 20px;
-    height: 20px;
+    width: 16px;
+    height: 16px;
     margin-right: 10px;
 }
 .host_available i {
-    font-size: 14px;
+    font-size: 8px;
+    color: var(--blue);
+}
+
+
+/********************* HOSTING **********************/
+.hosting {
+    display: flex;
+    gap: 3%;
+}
+.hosting_city {
+    background-color: var(--grey);
+    border-radius: 15px;
+    width: 60%;
+    padding: 30px;
+}
+.hosting_popular {
+    background-color: var(--grey);
+    border-radius: 15px;
+    width: 30%;
+    padding: 30px;
+}
+.title_hosting {
+    font-size: 17px;
+    margin: 0 0 20px 0;
+}
+.container_cards {
+    display: flex;
+    flex-wrap:wrap;
+    gap:20px;
+    width: 100%;
+}
+/******************* Card Hosting City *****************/
+.card {
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 28%;
+    height: 150px;
+    padding: 4px;
+    background-color:white;
+    border-radius: 15px;
+}
+.card_img {
+    height: 60%;
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+    overflow: hidden;
+}
+.card_img img {
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+    object-position: 0% -54px;
+}
+.card_content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 5px;
+    height: 34%;
+}
+.title_card {
+    font-size: 12px;
+    margin: 0;
+}
+.p_card {
+    font-size: 11px;
+    margin: 0;
+}
+.p_card span {
+    font-weight: bold;
+}
+.stars {
+    display: flex;
+}
+.fa-star{
+    color: var(--darkgrey);
+    font-size: 9px;
+}
+.blue-star{
     color: var(--blue);
 }
