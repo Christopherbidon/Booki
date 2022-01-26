@@ -11,7 +11,7 @@ a {
     text-decoration: none;
     color: black;
 }
-body {
+main {
     padding: 0px 30px 30px 30px;
     max-width: 1440px;
     margin: 0 auto;
@@ -39,7 +39,7 @@ header {
 .logo a {
     height: 50%;
     width: auto;
-    margin-left: 15px;
+    margin-left: 45px;
 }
 .logo a img{
     height: 100%;
@@ -367,6 +367,7 @@ header {
     flex-direction: column;
     flex-wrap: wrap;
     gap: 30px;
+    margin-bottom: 50px;
 }
 .card_activity {
     width: calc(25% - 23px);
@@ -416,4 +417,32 @@ header {
 }
 .card_activity:nth-child(6) {
     height: calc(50% - 15px);
+}
+
+/******************* FOOTER ********************/
+footer {
+    display: flex;
+    height: 100px;
+    background-color: var(--grey);
+    padding: 30px;
+}
+footer div {
+    display: flex;
+    flex-direction: column;
+    width: 33%;
+}
+.footer_title {
+    margin: 10px 0;
+    font-size: 14px;
+    font-weight: 600;
+}
+.footer_p {
+    display: inline;
+    font-size: 13px;
+    margin-top: 10px;
+    margin-right: auto;
+}
+.footer_p:hover {
+    color: var(--blue);
+    font-weight: 600;
 }
