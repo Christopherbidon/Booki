@@ -76,7 +76,7 @@ header {
     color: var(--blue);
 }
 
-/***************** Wrapper *******************/
+/***************** Section Search *******************/
 .title {
     font-size: 18px;
     margin-bottom: 6px;
@@ -224,6 +224,7 @@ header {
 .title_hosting {
     font-size: 17px;
     font-weight: 600;
+    margin-top: 4px;
 }
 .container_cards {
     display: flex;
@@ -246,7 +247,7 @@ header {
     display: flex;
     flex-direction: column;
     flex: 1 1 28%;
-    height: 150px;
+    height: 155px;
     padding: 4px;
     background-color:white;
     border-radius: 15px;
@@ -266,7 +267,6 @@ header {
     height: 100%;
     width: 100%;
     object-fit: cover;
-    object-position: center bottom;
 }
 .card_content {
     display: flex;
@@ -298,11 +298,14 @@ header {
     color: var(--blue);
 }
 
-/******************* Card Most Popular *****************/
+/******************* Hosting Most Popular *****************/
 .box_title_popular{
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+.box_title_popular i{
+    margin: 2px 0 10px 0;
 }
 .container_card_popular{
     display: flex;
@@ -310,6 +313,7 @@ header {
     height: 90%;
     gap: 20px;
 }
+/******************* Card Most Popular *****************/
 .card_popular{
     display: flex;
     height: 109px;
@@ -321,7 +325,7 @@ header {
 .card_popular_img {
     width: 40%;
     height: 100%;
-    border: 1px solid salmon;
+    
     border-radius: 10px 0 0 10px;
     overflow: hidden;
 }
@@ -334,11 +338,9 @@ header {
 .card_popular_content {
     display: flex;
     flex-direction: column;
-    /*justify-content: space-between;*/
     gap: 10px;
     width: 60%;
     padding: 10px;
-    border: 1px solid cyan;
 }
 .stars_popular {
     display: flex;
