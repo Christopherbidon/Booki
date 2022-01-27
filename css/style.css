@@ -12,7 +12,6 @@ a {
     text-decoration: none;
     color: black;
 }
-
 main {
     padding: 0px 30px 30px 30px;
     margin: 0 auto;
@@ -26,7 +25,8 @@ p {
     font-size: 13px;
 }
 
-/*************** Header ***************/
+/*************** HEADER ***************/
+
 header {
     height: 80px;
     display: flex;
@@ -38,7 +38,6 @@ header {
     width: 50%;
     display: flex;
     align-items: center;
-    
 }
 .logo a {
     height: 50%;
@@ -48,14 +47,11 @@ header {
 .logo a img{
     height: 100%;
     width: auto;
-    
 }
-
 .nav_bar {
     display: flex;
     height: 80px;
     justify-content: flex-end;
-
 }
 .nav_bar ul {
     display: flex;
@@ -86,7 +82,8 @@ header {
     color: var(--blue);
 }
 
-/***************** Section Search *******************/
+/***************** SECTION-SEARCH *******************/
+
 .title {
     font-size: 18px;
     margin-bottom: 6px;
@@ -94,7 +91,9 @@ header {
 .container_search_p {
     margin-top: 6px;
 }
-/****************** Search Bar ******************/
+
+/****************** SEARCH-BAR ******************/
+
 .search_bar{
     display: inline-flex;
     align-items: center;
@@ -137,7 +136,9 @@ header {
 .search_bar button:hover {
     opacity: .8;
 }
-/***************** Filters *******************/
+
+/***************** FILTERS *******************/
+
 .filters{
     display: flex;
     flex-wrap: wrap;
@@ -147,7 +148,6 @@ header {
 .filters_title {
     font-weight: bold;
 }
-
 .filter {
     display: flex;
     align-items: center;
@@ -187,7 +187,9 @@ header {
 .filter_p{
     margin: 0 10px;
 }
+
 /******************* Information Number of Hosting Available ******************/
+
 .host_available{
     display: flex;
     align-items: center;
@@ -209,14 +211,16 @@ header {
     color: var(--blue);
 }
 
-
 /********************* HOSTING **********************/
+
 .hosting {
     display: flex;
     gap: 30px;
     margin-bottom: 50px;
 }
+
 /********************* HOSTING-CITY **********************/
+
 .hosting_city {
     background-color: var(--grey);
     border-radius: 15px;
@@ -239,7 +243,9 @@ header {
 .view_more:hover {
     color: var(--blue);
 }
+
 /******************* CARD-HOSTING_CITY *****************/
+
 .card {
     display: flex;
     flex-direction: column;
@@ -295,7 +301,8 @@ header {
     color: var(--blue);
 }
 
-/******************* Hosting Most Popular *****************/
+/******************* HOSTING-MOST-POPULAR *****************/
+
 .hosting_popular {
     background-color: var(--grey);
     border-radius: 15px;
@@ -319,7 +326,9 @@ header {
     height: 90%;
     gap: 20px;
 }
-/******************* Card Most Popular *****************/
+
+/******************* CARD-MOST-POPULAR *****************/
+
 .card_popular{
     display: flex;
     height: 109px;
@@ -335,7 +344,6 @@ header {
 .card_popular_img {
     width: 40%;
     height: 100%;
-    
     border-radius: 10px 0 0 10px;
     overflow: hidden;
 }
@@ -361,6 +369,7 @@ header {
 }
 
 /******************* ACTIVITY ********************/
+
 .activity_section {
     margin-bottom: 20px;
 }
@@ -372,7 +381,6 @@ header {
     flex-direction: column;
     flex-wrap: wrap;
     gap: 30px;
-    
 }
 .card_activity {
     width: calc(25% - 23px);
@@ -402,7 +410,6 @@ header {
     margin: 0;
     background-color: white;
     font-weight: 600;
-    
 }
 .card_activity:nth-child(1) {
     height: 100%
@@ -424,6 +431,7 @@ header {
 }
 
 /******************* FOOTER ********************/
+
 footer {
     display: flex;
     height: auto;
@@ -460,6 +468,7 @@ footer div {
 @media  screen and (max-width: 992px ) {
 
     /********************* HOSTING-TABLETTE **********************/
+    
     .hosting {
         display: flex;
         flex-direction: column;
@@ -487,6 +496,7 @@ footer div {
     .stars_popular .fa-star{
         font-size: 9px;
     }
+
     /******************* ACTIVITY-TABLETTE ***********************/
 
     .card_activity {
@@ -538,7 +548,6 @@ footer div {
     .fa-star, .stars_popular .fa-star {
         font-size: 12px;
     }
-
     /******************* HEADER-MOBILE ***********************/
     header {
         height: 130px;
@@ -572,7 +581,6 @@ footer div {
         border-top: none;
         border-bottom: 2px solid var(--blue);
     }
-
     /******************* SEARCH-MOBILE ***********************/
     .title {
         font-size: 20px;
