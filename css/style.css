@@ -45,8 +45,8 @@ header {
     margin-left: 45px;
 }
 .logo a img{
-    height: 100%;
-    width: auto;
+    height: 40px;
+    width: 85px;
 }
 .nav_bar {
     display: flex;
@@ -163,7 +163,7 @@ header {
     cursor: pointer;
 }
 .filter:hover {
-    transition: .2s ease-in-out;
+    transition: .3s ease-in-out;
     background-color: var(--lightblue);
     border: 2px solid var(--lightblue);
     border-left: none;
@@ -195,7 +195,7 @@ header {
     align-items: center;
     margin: 10px 0;
 }
-.host_available div {
+/*.host_available div {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -209,6 +209,24 @@ header {
 .host_available i {
     font-size: 8px;
     color: var(--blue);
+}*/
+.host_available a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid var(--darkgrey);
+    border-radius: 50%;
+    min-width: 19px;
+    height: 19px;
+    margin-right: 10px;
+    font-size: 10px;
+    color: var(--blue);
+}
+.host_available a:hover {
+    transition: .3s ease;
+    border: 1px solid var(--blue);
+    background-color: var(--blue);
+    color: white;
 }
 
 /********************* HOSTING **********************/
@@ -393,7 +411,7 @@ header {
     transform: scale(1.02);
 }
 .card_activity_img {
-    height: calc(100% - 40px);
+    height: calc(100% - 45px);
     border-radius: 15px;
 }
 .card_activity_img img {
@@ -405,7 +423,7 @@ header {
 .card_activity_text {
     display: flex;
     align-items: center;
-    height: 40px;
+    height: 45px;
     padding-left: 15px;
     margin: 0;
     background-color: white;
@@ -645,7 +663,7 @@ footer div {
         height: 200px;
     }
     .card_img img {
-        object-position: center;
+        object-position: center center;
     }
     /******************* HOSTING-POPULAR-MOBILE ***********************/
     .hosting_popular {
