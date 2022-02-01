@@ -25,7 +25,7 @@ p {
     font-size: 13px;
 }
 
-/*************** HEADER ***************/
+/*********************** HEADER ***********************/
 
 header {
     height: 80px;
@@ -82,7 +82,7 @@ header {
     color: var(--blue);
 }
 
-/***************** SECTION-SEARCH *******************/
+/*********************** SECTION-SEARCH ***********************/
 
 .title {
     font-size: 18px;
@@ -92,7 +92,7 @@ header {
     margin-top: 6px;
 }
 
-/****************** SEARCH-BAR ******************/
+/*********************** SEARCH-BAR ***********************/
 
 .search_bar{
     display: inline-flex;
@@ -137,7 +137,7 @@ header {
     opacity: .8;
 }
 
-/***************** FILTERS *******************/
+/*********************** FILTERS ***********************/
 
 .filters{
     display: flex;
@@ -187,28 +187,13 @@ header {
     margin: 0 10px;
 }
 
-/******************* Information Number of Hosting Available ******************/
+/*********************** Information Number of Hosting Available ***********************/
 
 .host_available{
     display: flex;
     align-items: center;
     margin: 10px 0;
 }
-/*.host_available div {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border: 1px solid var(--darkgrey);
-    border-radius: 50%;
-    color: var(--blue);
-    min-width: 16px;
-    height: 16px;
-    margin-right: 10px;
-}
-.host_available i {
-    font-size: 8px;
-    color: var(--blue);
-}*/
 .host_available a {
     display: flex;
     align-items: center;
@@ -228,7 +213,7 @@ header {
     color: white;
 }
 
-/********************* HOSTING **********************/
+/*********************** HOSTING ***********************/
 
 .hosting {
     display: flex;
@@ -236,7 +221,7 @@ header {
     margin-bottom: 50px;
 }
 
-/********************* HOSTING-CITY **********************/
+/*********************** HOSTING-CITY ***********************/
 
 .hosting_city {
     background-color: var(--grey);
@@ -261,7 +246,7 @@ header {
     color: var(--blue);
 }
 
-/******************* CARD-HOSTING_CITY *****************/
+/*********************** CARD-HOSTING_CITY ***********************/
 
 .card {
     display: flex;
@@ -318,7 +303,7 @@ header {
     color: var(--blue);
 }
 
-/******************* HOSTING-MOST-POPULAR *****************/
+/*********************** HOSTING-MOST-POPULAR ***********************/
 
 .hosting_popular {
     background-color: var(--grey);
@@ -344,7 +329,7 @@ header {
     gap: 20px;
 }
 
-/******************* CARD-MOST-POPULAR *****************/
+/*********************** CARD-MOST-POPULAR ***********************/
 
 .card_popular{
     display: flex;
@@ -385,7 +370,7 @@ header {
     font-size: 8px;
 }
 
-/******************* ACTIVITY ********************/
+/*********************** ACTIVITY ***********************/
 
 .activity_section {
     margin-bottom: 20px;
@@ -447,7 +432,7 @@ header {
     height: calc(50% - 15px);
 }
 
-/******************* FOOTER ********************/
+/*********************** FOOTER ***********************/
 
 footer {
     display: flex;
@@ -484,7 +469,7 @@ footer div {
 
 @media  screen and (max-width: 992px ) {
 
-    /********************* HOSTING-TABLETTE **********************/
+    /*********************** HOSTING-TABLETTE **********************/
     
     .hosting {
         display: flex;
@@ -514,7 +499,7 @@ footer div {
         font-size: 9px;
     }
 
-    /******************* ACTIVITY-TABLETTE ***********************/
+    /*********************** ACTIVITY-TABLETTE ***********************/
 
     .card_activity {
         width: calc(33% - 17px);
@@ -565,7 +550,7 @@ footer div {
     .fa-star, .stars_popular .fa-star {
         font-size: 12px;
     }
-    /******************* HEADER-MOBILE ***********************/
+    /*********************** HEADER-MOBILE ***********************/
     header {
         height: 130px;
         flex-direction: column;
@@ -598,7 +583,7 @@ footer div {
         border-top: none;
         border-bottom: 2px solid var(--blue);
     }
-    /******************* SEARCH-MOBILE ***********************/
+    /*********************** SEARCH-MOBILE ***********************/
     .title {
         font-size: 20px;
     }
@@ -621,7 +606,7 @@ footer div {
     .search_button_desktop {
         display: none;
     }
-    /******************* FILTERS-MOBILE ***********************/
+    /*********************** FILTERS-MOBILE ***********************/
     .filters_title {
         display: block;
         width: 100%;
@@ -633,7 +618,7 @@ footer div {
         margin-bottom: 0;
         font-size: 15px;
     }
-    /******************* INFORMATION-HOSTING-MOBILE ***********************/
+    /*********************** INFORMATION-HOSTING-MOBILE ***********************/
     .host_available div {
         min-width: 22px;
         height: 22px;
@@ -641,7 +626,7 @@ footer div {
     .host_available i {
         font-size: 12px;
     }
-    /******************* HOSTING-MOBILE ***********************/
+    /*********************** HOSTING-MOBILE ***********************/
     .hosting {
         gap: 0;
         margin-bottom: 0;
@@ -649,7 +634,7 @@ footer div {
     .view_more {
         font-size: 18px;
     }
-    /******************* HOSTING-CITY-MOBILE ***********************/
+    /*********************** HOSTING-CITY-MOBILE ***********************/
     .hosting_city {
         background-color: white;
     }
@@ -664,7 +649,7 @@ footer div {
     .card_img img {
         object-position: center center;
     }
-    /******************* HOSTING-POPULAR-MOBILE ***********************/
+    /*********************** HOSTING-POPULAR-MOBILE ***********************/
     .hosting_popular {
         border-radius: 0;
         height: 550px;
@@ -676,7 +661,7 @@ footer div {
         flex-direction: column;
         gap: 10px;
     }
-    /******************* ACTIVITY-MOBILE ***********************/
+    /*********************** ACTIVITY-MOBILE ***********************/
     .activity_section {
         padding: 30px;
     }
@@ -705,7 +690,7 @@ footer div {
     .card_activity:nth-child(6) {
         height: 200px;
     }
-    /******************* FOOTER-MOBILE ***********************/
+    /*********************** FOOTER-MOBILE ***********************/
     footer {
         flex-direction: column;
     }
